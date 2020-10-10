@@ -12,9 +12,18 @@ namespace CIT365_MegaDesk_Smith
 {
     public partial class SearchQuotes : Form
     {
-        public SearchQuotes()
+        private Form _mainMenu;
+        public SearchQuotes(Form mainMenu)
         {
             InitializeComponent();
+
+            // Obtaining MainMenu object reference
+            _mainMenu = mainMenu;
+        }
+
+        private void SearchQuotes_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            _mainMenu.Show();
         }
     }
 }

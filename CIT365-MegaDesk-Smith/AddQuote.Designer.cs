@@ -32,22 +32,22 @@
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.numericUpDown2 = new System.Windows.Forms.NumericUpDown();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
+            this.nudDepth = new System.Windows.Forms.NumericUpDown();
+            this.nudWidth = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.btnAddQuote = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.numericUpDown3 = new System.Windows.Forms.NumericUpDown();
+            this.nudDrawers = new System.Windows.Forms.NumericUpDown();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.cmbShippingType = new System.Windows.Forms.ComboBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudDepth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudWidth)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudDrawers)).BeginInit();
             this.SuspendLayout();
             // 
             // cmbMaterialTypes
@@ -79,8 +79,8 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.numericUpDown2);
-            this.groupBox1.Controls.Add(this.numericUpDown1);
+            this.groupBox1.Controls.Add(this.nudDepth);
+            this.groupBox1.Controls.Add(this.nudWidth);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -91,19 +91,19 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Desk Size";
             // 
-            // numericUpDown2
+            // nudDepth
             // 
-            this.numericUpDown2.Location = new System.Drawing.Point(163, 110);
-            this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 30);
-            this.numericUpDown2.TabIndex = 3;
+            this.nudDepth.Location = new System.Drawing.Point(163, 110);
+            this.nudDepth.Name = "nudDepth";
+            this.nudDepth.Size = new System.Drawing.Size(120, 30);
+            this.nudDepth.TabIndex = 3;
             // 
-            // numericUpDown1
+            // nudWidth
             // 
-            this.numericUpDown1.Location = new System.Drawing.Point(163, 52);
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 30);
-            this.numericUpDown1.TabIndex = 2;
+            this.nudWidth.Location = new System.Drawing.Point(163, 52);
+            this.nudWidth.Name = "nudWidth";
+            this.nudWidth.Size = new System.Drawing.Size(120, 30);
+            this.nudWidth.TabIndex = 2;
             // 
             // label3
             // 
@@ -143,13 +143,13 @@
             this.label4.TabIndex = 6;
             this.label4.Text = "Number of Drawers:";
             // 
-            // numericUpDown3
+            // nudDrawers
             // 
-            this.numericUpDown3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numericUpDown3.Location = new System.Drawing.Point(275, 373);
-            this.numericUpDown3.Name = "numericUpDown3";
-            this.numericUpDown3.Size = new System.Drawing.Size(50, 30);
-            this.numericUpDown3.TabIndex = 7;
+            this.nudDrawers.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.nudDrawers.Location = new System.Drawing.Point(260, 373);
+            this.nudDrawers.Name = "nudDrawers";
+            this.nudDrawers.Size = new System.Drawing.Size(65, 30);
+            this.nudDrawers.TabIndex = 7;
             // 
             // label5
             // 
@@ -211,7 +211,7 @@
             this.Controls.Add(this.cmbShippingType);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.numericUpDown3);
+            this.Controls.Add(this.nudDrawers);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.btnAddQuote);
             this.Controls.Add(this.groupBox1);
@@ -223,9 +223,9 @@
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.AddQuote_FormClosed);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudDepth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudWidth)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nudDrawers)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -237,13 +237,13 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.NumericUpDown numericUpDown2;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
+        private System.Windows.Forms.NumericUpDown nudDepth;
+        private System.Windows.Forms.NumericUpDown nudWidth;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnAddQuote;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.NumericUpDown numericUpDown3;
+        private System.Windows.Forms.NumericUpDown nudDrawers;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.ComboBox cmbShippingType;
